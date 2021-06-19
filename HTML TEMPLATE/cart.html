@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carosel cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+    <!-- custom css file  -->
+   
+    <title>Mobile shopping</title>
+  </head>
+  <body>
+    <!-- start header  -->
+    <header id="header">
+      <div class="srip d-flex justify-content-between px-4 py-1 bg-light">
+       <p class="font-rale font-size-14 text-black-50 m-0">junioryakub.jy@gmail.com</p>
+       <div class="font-rale font-size-14">
+           <a href="#" class="px-3 border-right border-left text-dark"> login</a>
+           <a href="#" class="px-3 border-right border-left text-dark"> whishlist(0)</a>
+       </div>
+      </div>
+
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark color-secondary-bg font-size-16">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">MOBILE SHOPING</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav m-auto font-rubik">
+                <li class="nav-item">
+                  <a class="nav-link active">On sale</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">category <i class="fa fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">products <i class="fa fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">coming soon</a>
+                </li>
+              </ul>
+              <form action="#">
+                  <a href="#" class="py-2 rounded-pill color-primary-bg">
+                      <span class="font-size-16 px-2 text-white">
+                          <i class="fa fa-shopping-cart"></i>
+                      </span>
+                      <span class="py-2 px-3 rounded-pill text-dark bg-light">
+                         0
+                      </span>
+
+                  </a>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+      <!-- nav bar -->
+
+
+  </header>
+
+  <!-- start header  -->
+
+
+
+  <!-- start MAIN  -->
+  <main id="main">
+      <!-- owl carousel -->
+      <!-- shopping carty section  -->
+    <section id="cart" class="py-3">
+        <div class="container-fluid w-75">
+            <h5 class="font-baloo font-size-20"> Shopping Cart</h5>
+               
+            <!-- shopping cart items  -->
+            <div class="row">
+                <div class="col-sm-9">
+                    <!-- cart items  -->
+                    <div class="row border-top py-3 mt-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/products/10.png" alt="cart1" class="img-fluid" style="height:120px">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5 class="font-baloo font-size-20">samsung Galaxy s20</h5>
+                            <small>by samsung
+
+                            </small>
+                            <div class="d-flex">
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                  </div>
+                                  <a href="#" class="px-2 font-rubik font-size-14">20,534 ratings</a>
+                            </div>
+
+                            <!-- product rating  -->
+                            <div class="qty d-flex pt-2">
+                                <div class="d-flex font-rale w-25">
+                                    <button class="qty_up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                    <input type="text" class="qty_input border px-2 w-100 bg-light"  value="1" placeholder="1" disabled>
+                                    <button class="qty_down border bg-light"><i class="fas fa-angle-down"></i></button>                              
+                                </div>
+                                <button class="btn font-baloo text-danger px-3 border-right" type="submit">Delete</button>
+                                <button class="btn font-baloo text-danger" type="submit">save for later</button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-2 text-right">
+                            <div class="font-size-20 text-danger">
+                                $<span class="product_price">152</span>
+                            </div>
+                        </div>
+                            <!-- product rating  -->
+
+                    </div>
+                </div>
+
+
+                <div class="col-sm-3">
+                    <div class="sub-total border text-center mt-2">
+                        <h6 class="text-success font-size-12 font-rubik py-3"><i class="fas fa-check "></i>  Your order is eligibile for free delivery</h6>
+                        <div class="border-top py-4">
+                            <h5  class="font-baloo font-size-20">Subtotal( 2 item)&nbsp;<span class="text-danger">$ <span class="text-danger" id="deal-price">152</span></h5>
+                            <button type="submit" class="btn btn-warning mt-3">Proceed to Buy</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-9">
+                    <!-- cart items  -->
+                    <div class="row border-top py-3 mt-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/products/10.png" alt="cart1" class="img-fluid" style="height:120px">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5 class="font-baloo font-size-20">samsung Galaxy s20</h5>
+                            <small>by samsung
+
+                            </small>
+                            <div class="d-flex">
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                  </div>
+                                  <a href="#" class="px-2 font-rubik font-size-14">20,534 ratings</a>
+                            </div>
+
+                            <!-- product rating  -->
+                            <div class="qty d-flex pt-2">
+                                <div class="d-flex font-rale w-25">
+                                    <button class="qty_up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                    <input type="text" class="qty_input border px-2 w-100 bg-light"  value="1" placeholder="1" disabled>
+                                    <button class="qty_down border bg-light"><i class="fas fa-angle-down"></i></button>                              
+                                </div>
+                                <button class="btn font-baloo text-danger px-3 border-right" type="submit">Delete</button>
+                                <button class="btn font-baloo text-danger" type="submit">save for later</button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-2 text-right">
+                            <div class="font-size-20 text-danger">
+                                $<span class="product_price">152</span>
+                            </div>
+                        </div>
+                            <!-- product rating  -->
+
+                    </div>
+                </div>
+
+        <!-- sub-total section -->
+
+            </div>
+
+
+
+            <!-- shopping cart items  -->
+
+
+        </div>
+    </section>
+
+      <!-- product -->
+
+
+<!-- new phone  -->
+<section id="new-phone">
+    <div class="container pt-5">
+      <h4 class="font-rubik ">new phones</h4>
+      <div class="owl-carousel owl-theme">
+        <div class="item py-2">
+          <div class="product font-rubik">
+            <a href="#"><img src="./assets/products/1.png" alt="product1" class="imf-fluid"></a>
+            <div class="text-center">
+              <h6>samsung galaxy s10</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn btn-warning">Add to cart</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product font-rubik">
+            <a href="#"><img src="./assets/products/6.png" alt="product1" class="imf-fluid"></a>
+            <div class="text-center">
+              <h6>samsung galaxy s10</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn btn-warning">Add to cart</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product font-rubik">
+            <a href="#"><img src="./assets/products/10.png" alt="product1" class="imf-fluid"></a>
+            <div class="text-center">
+              <h6>samsung galaxy s10</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn btn-warning">Add to cart</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product font-rubik">
+            <a href="#"><img src="./assets/products/2.png" alt="product1" class="imf-fluid"></a>
+            <div class="text-center">
+              <h6>samsung galaxy s10</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn btn-warning">Add to cart</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product font-rubik">
+            <a href="#"><img src="./assets/products/3.png" alt="product1" class="imf-fluid"></a>
+            <div class="text-center">
+              <h6>samsung galaxy s10</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn btn-warning">Add to cart</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product font-rubik">
+            <a href="#"><img src="./assets/products/4.png" alt="product1" class="imf-fluid"></a>
+            <div class="text-center">
+              <h6>samsung galaxy s10</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn btn-warning">Add to cart</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  </main>
+
+
+  <!-- start main  -->
+
+
+
+
+  <!-- start footer  -->
+  <footer id="footer" class="bg-dark text-white py-5">
+    <div class="row">
+      <div class="col-lg-3 col-12">
+        <h4 class="font-rubik font-size">
+          Mobile shopping
+        </h4>
+        <p class="font-rubik font-size-14 text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores saepe beatae, facilis rerum error odit, numquam id labore soluta repellendus omnis exercitationem consequatur fugiat, commodi aliquam! Magnam perspiciatis dolores esse?</p>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        <h4 class="font-rubik font-size">
+          News letter
+        </h4>
+        <form action="" class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="email">
+          </div>
+          <div class="col">
+            <button class="btn btn-primary">suscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-2 col-12">
+        <h4 class="font-rubik font-size-20"></h4>
+          <div class="d-flex flex-column flex-wrap">
+            <h4 class="font-rubik">information</h4>
+            <a href="" class="font-rubik font-size-14 text-white-50">
+              About Us
+            </a>
+            <a href="" class="font-rubik font-size-14 text-white-50">
+             delivery information
+            </a>
+            <a href="" class="font-rubik font-size-14 text-white-50">
+              privacy policy
+            </a>
+            <a href="" class="font-rubik font-size-14 text-white-50">
+              terms and condition
+            </a>
+          </div>
+        
+      </div>
+      <div class="col-lg-2 col-12">
+        <h4 class="font-rubik font-size-20"></h4>
+          <div class="d-flex flex-column flex-wrap">
+            <h4 class="font-rubik">My Account </h4>
+            <a href="" class="font-rubik font-size-14 text-white-50">
+              delivery
+            </a>
+            <a href="" class="font-rubik font-size-14 text-white-50">
+             order history
+            </a>
+            <a href="" class="font-rubik font-size-14 text-white-50">
+              wishlist
+            </a>
+            <a href="" class="font-rubik font-size-14 text-white-50">
+            new later
+            </a>
+          </div>
+        
+      </div>
+    </div>
+  </footer>
+<div class="copyright text-center bg-dark text-white py-2">
+  <p class="font-rubik">&copy;copyright Yakub Junior</p>
+</div>
+  <!-- start footer  -->
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
